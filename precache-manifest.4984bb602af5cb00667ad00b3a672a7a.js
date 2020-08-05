@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32ea6f37f38e3f8d982f3f7c9101d4de",
+    "revision": "1fa50e436e93c3d04dc8cbe94900794a",
     "url": "/sempiternal-culture/index.html"
   },
   {
-    "revision": "2221eaa529350451b802",
+    "revision": "e14499628d00b633947c",
     "url": "/sempiternal-culture/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sempiternal-culture/static/js/2.dd1a9e2c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2221eaa529350451b802",
-    "url": "/sempiternal-culture/static/js/main.1020aeb5.chunk.js"
+    "revision": "e14499628d00b633947c",
+    "url": "/sempiternal-culture/static/js/main.136e4ca6.chunk.js"
   },
   {
     "revision": "455a60b6e6074ccfeb7d",

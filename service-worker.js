@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sempiternal-culture/precache-manifest.a26915f3348316513e9dffe431ecc8c7.js"
+  "/sempiternal-culture/precache-manifest.4984bb602af5cb00667ad00b3a672a7a.js"
 );
 
 self.addEventListener('message', (event) => {
