@@ -16,8 +16,22 @@ const StyledNav = styled.nav`
     overflow-x: hidden;
 `
 
+const Brand = styled.div`
+    font-family: "Heebo", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    justify-content: center;
+    line-height: 1.2;
+    margin-top: 6rem;
+    margin-bottom: 1.6rem;
+`
+
 export default function Navbar(props){
     return (<StyledNav>
+        <Brand>
+            The Sempiternal Culture.
+        </Brand>
         <LinksList/>
     </StyledNav>);
 }

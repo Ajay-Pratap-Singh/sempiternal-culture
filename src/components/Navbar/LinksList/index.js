@@ -9,6 +9,8 @@ const StyledUl = styled.ul`
     font-family: "Heebo", sans-serif;
     font-weight: 400;
     font-size: 16px;
+    margin-top: 3.2rem;
+    line-height: 4.4rem;
 `
 
 export default function LinksList(props){
