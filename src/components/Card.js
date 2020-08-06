@@ -15,6 +15,7 @@ const StyledCard = styled.article`
         color:#33998a;
     }
 `
+
 const Heading = styled.h3`
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
@@ -39,13 +40,19 @@ const Content = styled.p`
     color: rgba(0, 0, 0, 0.5);
 `
 
+function Thumbnail(props){
+    return(
+        <Link to={props.blogURL} style={{margin:"-3.2rem -2.8rem 0rem"}}>
+            <img src={props.imgSrc} style={{width:"100%"}} alt="Blog"/>
+        </Link>
+    )
+}
+
 export default function Card(props){
     return (<StyledCard>
-       {props.imgSrc?<Link to={"/blog"}>
-            <img src={props.imgSrc} alt="Blog"/>
-        </Link>:null}
+       {props.imgSrc?<Thumbnail blogURL={props.blogURL} imgSrc={props.imgSrc}/>:null}
         <Heading>
-            <Link to={"/blog"}>{props.title}</Link>
+            <Link to={props.blogURL}>{props.title}</Link>
         </Heading>
         <BlogMeta>
             <span style={{marginRight:"2rem"}}>
